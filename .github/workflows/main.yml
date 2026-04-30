@@ -26,10 +26,7 @@ jobs:
         run: |
           cd scripts
           npm install
-          Install Skill : 
-npx clawhub@latest install verified-agent-identity
-4. Chek Your Agents Skill : 
-npx clawhub@latest list
+          
 
       - name: Create Ethereum Identity
         run: node scripts/createNewEthereumIdentity.js

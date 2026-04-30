@@ -35,7 +35,3 @@ jobs:
         run: |
           node scripts/manualLinkHumanToAgent.js --challenge '{"name":"B4dru5","description":"B4dru5 AI Agent"}'
 
-Install Skill : 
-npx clawhub@latest install verified-agent-identity
-4. Chek Your Agents Skill : 
-npx clawhub@latest list
